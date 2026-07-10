@@ -1,0 +1,47 @@
+*{margin:0;
+    padding:0;
+    box-sizing:border-box}
+
+body{font-family:Inter,sans-serif;
+    background:#F8FAFC;
+    color:#111827}
+
+.navbar{display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#fff;
+    position:sticky;
+    top:0}
+
+.logo{font:700 28px 'Space Grotesk',sans-serif}
+
+nav a{text-decoration:none;
+    color:#111827;
+    margin-left:20px}
+
+.active{color:#2563EB}
+
+.hero{padding:80px 8%;
+    text-align:center}
+
+.hero h1{font:700 52px 'Space Grotesk',sans-serif}
+
+.hero p{margin-top:15px;
+    color:#6B7280}
+
+.grid{display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:24px;
+    padding:40px 8%}
+
+.card{background:rgba(123, 164, 87, 0.749);
+    padding:28px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08)}
+
+.card h2{margin-bottom:15px}
+
+.card ul{padding-left:20px}
+
+

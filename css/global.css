@@ -1,0 +1,5 @@
+.navbar{display:flex;
+    justify-content:space-between;
+    padding:20px 8%;
+    background:linear-gradient(to right,rgb(43, 204, 158),rgb(182, 109, 216));
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Portfolio | Kishan</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/portfolio.css">
+<link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+<header class="navbar">
+<div class="logo">Kishan.</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="portfolio.html" class="active">Portfolio</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>My Portfolio</h1>
+<p>A selection of my editing work.</p>
+</section>
+
+<section class="filters">
+<button data-filter="all">All</button>
+<button data-filter="youtube">YouTube</button>
+<button data-filter="shorts">Short-Form Videos</button>
+<button data-filter="motion">Motion Graphics</button>
+<button data-filter="Graphics">Graphic Designs</button>
+<button data-filter="adds">Brand Advertisements</button>
+<button data-filter="colors">Color Correcion & Grading</button>
+<button data-filter="multicam">Multi-Cam Editing</button>
+</section>
+
+<section class="grid">
+<div class="card youtube"><video controls preload="metadata"><source src="assets/videos/TRAILER - AIRPLANE.mov"></video><h3>YouTube Documentary</h3></div>
+<div class="card motion"><video controls preload="metadata"><source src="assets/videos/Text & Bg.mov"></video><h3>Backgrounds & Text Animations</h3></div>
+<div class="card youtube"><div class="thumb"></div><h3>Gaming Edit</h3></div>
+<div class="card adds"><video controls proload="metadata"><source src="assets/videos/Sample - Sony FX30.mp4"></video><h3>SONY FX-30</h3></div>
+<div class="card adds"><video controls proload="metadata"><source src="assets/videos/Sample - Sony FX30.mp4"></video><h3>SONY FX-30</h3></div>
+<div class="card motion"><video controls preload="metadata"><source src="assets/videos/Video Scroll.mov"></video><h3>2D Corousel</h3></div>
+<div class="card adds"><video controls proload="metadata"><source src="assets/videos/Sample - Sony FX30.mp4"></video><h3>SONY FX-30</h3></div>
+<div class="card motion"><video controls preload="metadata"><source src="assets/videos/wheel.mp4"></video><h3>Wheel in Motion</h3></div>
+<div class="card multicam"><video controls preload="metadata"><source src="assets/videos/ranveer alabhadia.mov"></video><h3>Podcasts Editing</h3></div>
+<div class="card motion"><video controls preload="metadata"><source src="assets/videos/2D corousel.mov"></video><h3>Selection</h3></div>
+<div class="card multicam"><video controls preload="metadata"><source src="assets/videos/JBR.mov"></video><h3>Music Video</h3></div>
+<div class="card youtube"><video controls preload="metadata"><source src="assets/videos/veevek.mp4"></video><h3>YT Talking Head-Video</h3></div>
+<div class="card Graphics"><img src="assets/images/SONY FX - 30.jpg" alt="SONY FX-30"><h3>Posters</h3></div>
+<div class="card Graphics"><img src="assets/images/SONY FX - 30.jpg" alt="SONY FX-30"><h3>Posters</h3></div>
+<div class="card Graphics"><img src="assets/images/SONY FX - 30.jpg" alt="SONY FX-30"><h3>Posters</h3></div>
+<div class="card shorts"><video controls muted preload="metadata"><source src="assets/videos/ranveer alhabadia.mov"></video><h3>Instagram Reel</h3></div>
+<div class="card shorts"><div class="thumb"></div><h3>Travel Reel</h3></div>
+</section>
+
+<script src="js/portfolio.js"></script>
+</body>
+</html>

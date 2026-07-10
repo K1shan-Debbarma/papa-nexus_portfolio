@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Kishan</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+<header class="navbar">
+<div class="logo">Kishan.</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="services.html">Services</a>
+<a href="contact.html" class="active">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Let's Work Together</h1>
+<p>Have a project? Get in touch.</p>
+</section>
+
+<section class="container">
+<div class="card">
+<h2>Contact Information</h2>
+<p>
+<i class="fa-solid fa-envelope"></i>
+<a href="mailto:alucardvzw@gmail.com">alucardvzw@gmail.com</a>
+</p>
+<p>
+<i class="fa-solid fa-location-dot"></i>
+<a href="https://maps.google.com/?q=Tripura,India" target="_blank">
+Tripura, India
+</a>
+</p>
+<p>
+<i class="fa-brands fa-whatsapp"></i>
+<a href="https://wa.me/919366421084" target="_blank">
++91 93664 21084
+</a>
+</p>
+<p>
+<a href="https://instagram.com/your_username" target="_blank">
+    <i class="fa-brands fa-instagram"></i> @Papa_Nexus
+</a>
+</p>
+</div>
+
+<form id="contactForm"
+      class="card2"
+      action="https://api.web3forms.com/submit"
+      method="POST">
+
+    <!-- Your Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="8df1ebd6-5064-4602-b8e5-6334b1907702">
+
+    <!-- Optional Subject -->
+    <input type="hidden" name="subject" value="New Portfolio Contact Message">
+
+    <!-- Spam Protection -->
+    <input type="checkbox" name="botcheck" style="display:none;">
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required>
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required>
+
+    <input
+        type="tel"
+        name="phone"
+        placeholder="WhatsApp Number">
+
+    <textarea
+        name="message"
+        placeholder="Tell me about your project..."
+        required></textarea>
+
+    <button id="submitBtn" type="submit">
+        Send Message
+    </button>
+
+    <p id="result"></p>
+
+</form>
+</section>
+
+<script src="js/contact.js"></script>
+</body>
+</html>
